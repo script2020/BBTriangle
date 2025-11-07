@@ -155,6 +155,14 @@ public class Triangle {
         }
         return false;
     }
+    
+    public static void main(String[] args) {
+        Triangle triangle = new Triangle(3, 4, 5);
+        System.out.println("Triangle sides: " + triangle.getSideLengths());
+        System.out.println("Triangle perimeter: " + triangle.getPerimeter());
+        System.out.println("Triangle area: " + triangle.getArea());
+        System.out.println("Triangle classification: " + triangle.classify());
+    }
 
 }
 
